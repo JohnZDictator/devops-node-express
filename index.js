@@ -13,6 +13,9 @@ app.use(cors())
 app.get('/', (req, res)=>{
     res.send('<h1>Hello World</h1>')
 })
+app.get('/johnzdictator', (req, res)=>{
+    res.send('<h1>JohnZDictator</h1>')
+})
 
 app.listen(PORT, ()=>{
     console.log(`Connected on port ${PORT}`)
