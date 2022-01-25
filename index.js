@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: false}))
 app.use(cors())
 
 app.get('/', (req, res)=>{
-    res.send('<h1>Hello World</h1>')
+    res.send('<h1>Hello World!!!</h1>')
 })
 app.get('/johnzdictator', (req, res)=>{
     res.send('<h1>JohnZDictator</h1>')
